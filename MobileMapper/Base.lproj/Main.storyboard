@@ -31,7 +31,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="1kB-L3-tMn"/>
+                    <navigationItem key="navigationItem" id="1kB-L3-tMn">
+                        <barButtonItem key="leftBarButtonItem" title="Zoom" id="i1C-UR-OYm">
+                            <connections>
+                                <action selector="zoomButtonTapped:" destination="BYZ-38-t0r" id="pp3-67-sHU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="JrT-9o-vr8" id="9HU-FG-lF0"/>
                     </connections>
